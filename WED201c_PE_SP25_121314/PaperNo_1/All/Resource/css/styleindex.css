@@ -1,0 +1,209 @@
+body {
+    margin: 0 1%;
+}
+
+.header {
+    margin: 0 -1%;
+    display: flex;
+    border-bottom: 3px solid green;
+    padding-bottom: 15px;
+}
+
+.logo {
+    flex: 0 0 6%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header ul {
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+}
+
+.header li {
+    margin: 2% 8%;
+    white-space: nowrap;
+}
+
+.header a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navigate {
+    margin-top: 1%;
+    margin-left: 12%;
+}
+
+.finder {
+    margin-top: 2%;
+    margin-left: 32%;
+}
+
+.prompt {
+    height: 20px;
+    margin-right: -3px;
+}
+
+.finder button {
+    color: aliceblue;
+    background-color: black;
+}
+
+.firstcontent {
+    gap: 2%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.camaupic {
+    flex: 0 0 48%;
+}
+
+.camaupic img {
+    width: 100%;
+}
+
+.firstcontent-words h1 {
+    font-size: 31px;
+    margin-top: 0;
+    color: rgb(69, 136, 114);
+}
+
+.firstcontent-words p {
+    font-size: 19px;
+    color: orange;
+    border-bottom: 2px dotted black;
+    font-style: italic;
+}
+
+.contact p {
+    color: skyblue;
+    height: 50px;
+    border-bottom: 2px dotted green;
+}
+
+.contact img {
+    width: 5%;
+    margin-bottom: -2%;
+    margin-right: 0.5%;
+}
+
+.title {
+    color: rgba(0, 128, 0, 0.671);
+    text-align: center;
+}
+
+.contentvisit {
+    display: flex;
+    gap: 1%;
+}
+
+.mangrove {
+    flex: 0 0 25%;
+}
+
+.mangrove img {
+    width: 100%;
+}
+
+.mangrove-content {
+    text-align: justify;
+    font-style: italic;
+}
+
+.tourreg {
+    gap: 2%;
+    display: flex;
+}
+
+.car {
+    flex: 0 0 50%;
+}
+
+.tourreg img {
+    width: 100%;
+}
+
+.regheading h2 {
+    color: aliceblue;
+    margin: 0;
+    padding: 10px 50px;
+    background-color: #0EC0C3;
+}
+
+.forminput {
+    background-color: lightgrey;
+    height: 30%;
+}
+
+.tourname {
+    height: 25px;
+    width: 70%;
+    margin-left: 18.2%;
+}
+
+.tourend {
+    width: 68%;
+    margin-left: 12.7%;
+    height: 25px;
+
+}
+
+.tourdept {
+    width: 68%;
+    height: 25px;
+
+    margin-left: 5.4%;
+}
+
+.name {
+    height: 25px;
+
+    width: 68%;
+    margin-left: 11%;
+}
+
+.phone {
+    height: 25px;
+
+    width: 68%;
+
+    margin-left: 16.1%;
+}
+
+.withouttitle div {
+    margin: 3% 5%;
+}
+
+.tournop {
+    width: 68%;
+    height: 25px;
+
+}
+.booking p{
+    padding-top: 4%;
+    padding-left: 45%;
+    background-color: white;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    margin: auto -1%;
+    margin-top: 2%;
+    background-color: #08A2C7;
+    color: aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.ft1{
+    margin-left: 10%;
+}
+.ft2{
+    margin-left: 30%;
+}
