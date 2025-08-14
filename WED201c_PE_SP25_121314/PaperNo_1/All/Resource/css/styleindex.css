@@ -138,8 +138,9 @@ body {
 }
 
 .forminput {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     height: 30%;
+    
 }
 
 .tourname {
@@ -179,6 +180,7 @@ body {
 
 .withouttitle div {
     margin: 3% 5%;
+    
 }
 
 .tournop {
@@ -186,13 +188,29 @@ body {
     height: 25px;
 
 }
-.booking p{
-    padding-top: 4%;
-    padding-left: 45%;
-    background-color: white;
-    margin: 0;
+
+.withouttitle {
+    background-color: lightgrey;
+    padding: 2px 0;
+    margin-top: 5px;
 }
-.footer{
+
+.booking {
+    margin: 0 200px;
+    padding: 0px 0;
+    background-color: orange;
+    border-radius: 5px;
+
+}
+
+.booking p {
+    padding: 10px 5px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
     display: flex;
     margin: auto -1%;
     margin-top: 2%;
@@ -201,9 +219,11 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
 }
-.ft1{
+
+.ft1 {
     margin-left: 10%;
 }
-.ft2{
+
+.ft2 {
     margin-left: 30%;
 }
